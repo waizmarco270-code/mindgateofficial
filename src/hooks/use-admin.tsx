@@ -10,7 +10,7 @@ import { collection, doc, onSnapshot, updateDoc, getDoc, query, setDoc, where, g
 //  TYPES & INITIAL DATA
 // ============================================================================
 
-export const ADMIN_UIDS = ['23j2N4p0ZgUnCqTBrrppkYtD2fI3', 'ZOMxxdfjCTR3Be1K8YV8a5AWRQP2', 'frRmURwVLifOacZj855JezyECWX2', 'oY64QlJ6v5ZOJC7eoYQ3L6wXLhW2' , 'Lkyn95mVyVNTiNnn1YsGeiHWlib2'];
+export const ADMIN_UIDS = ['23j2N4p0ZgUnCqTBrrppkYtD2fI3', 'ZOMxxdfjCTR3Be1K8YV8a5AWRQP2', 'frRmURwVLifOacZj855JezyECWX2', 'oY64QlJ6v5ZOJC7eoYQ3L6wXLhW2' , 'Lkyn95mVyVNTiNnn1YsGeiHWlib2' , 'ddm7iHhw9WeXNSqSMz10gSmJCYd2'];
 
 export interface User {
   id: string; // Document ID from Firestore
